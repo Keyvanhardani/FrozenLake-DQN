@@ -1,6 +1,4 @@
-# Project: FrozenLake DQN Trainer by Keyvan Hardani
-
-## English Description
+# Project: FrozenLake DQN Trainer
 
 This project provides a training pipeline for a Deep Q-Network (DQN) agent on the `FrozenLake-v1` environment (from Gymnasium). It demonstrates how to set up, train, and evaluate a DQN agent using `stable-baselines3`. 
 
@@ -26,8 +24,6 @@ This project provides a training pipeline for a Deep Q-Network (DQN) agent on th
 - **Extensibility:** Try different environments (e.g., `CartPole-v1`) or adjust hyperparameters to verify flexible usage.
 
 ---
-
-## Deutsche Beschreibung
 
 Dieses Projekt bietet eine Trainingspipeline für einen Deep Q-Network (DQN)-Agenten in der `FrozenLake-v1` Umgebung. Es demonstriert die Einrichtung, das Training und die Evaluation eines DQN-Agenten mithilfe von `stable-baselines3`.
 
