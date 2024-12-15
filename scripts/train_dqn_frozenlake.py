@@ -9,7 +9,7 @@ if __name__ == "__main__":
         "id": "FrozenLake-v1",
         "map_name": "4x4",
         "is_slippery": False,
-        "render_mode": "human"
+        #"render_mode": "human"
     }
     env = Monitor(gym.make(**env_args))
 
@@ -28,8 +28,11 @@ if __name__ == "__main__":
         "exploration_final_eps": 0.05,
         "batch_size": 32,
         "verbose": 1,
-        "env": env
+        "env": env,
+        "device": "cuda"  # GPU-Nutzung aktivieren
     }
+
+
 
     model = DQN(**dqn_args)
 
